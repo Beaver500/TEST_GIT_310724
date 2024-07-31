@@ -1,0 +1,5 @@
+{
+	"servCount": 2,
+	"servIP": 127.0.0.1,
+	"servPort": 23,
+}

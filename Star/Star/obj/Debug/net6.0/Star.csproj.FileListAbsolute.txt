@@ -1,0 +1,252 @@
+F:\code\C# Stude\Star\Star\bin\Debug\net6.0\Star.exe
+F:\code\C# Stude\Star\Star\bin\Debug\net6.0\Star.deps.json
+F:\code\C# Stude\Star\Star\bin\Debug\net6.0\Star.runtimeconfig.json
+F:\code\C# Stude\Star\Star\bin\Debug\net6.0\Star.dll
+F:\code\C# Stude\Star\Star\bin\Debug\net6.0\Star.pdb
+F:\code\C# Stude\Star\Star\bin\Debug\net6.0\MyLibrary.dll
+F:\code\C# Stude\Star\Star\bin\Debug\net6.0\MyLibrary.pdb
+F:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.csproj.AssemblyReference.cache
+F:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.GeneratedMSBuildEditorConfig.editorconfig
+F:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.AssemblyInfoInputs.cache
+F:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.AssemblyInfo.cs
+F:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.csproj.CoreCompileInputs.cache
+F:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.csproj.CopyComplete
+F:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.dll
+F:\code\C# Stude\Star\Star\obj\Debug\net6.0\refint\Star.dll
+F:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.pdb
+F:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.genruntimeconfig.cache
+F:\code\C# Stude\Star\Star\obj\Debug\net6.0\ref\Star.dll
+D:\code\C# Stude\Star\Star\bin\Debug\net6.0\Star.exe
+D:\code\C# Stude\Star\Star\bin\Debug\net6.0\Star.deps.json
+D:\code\C# Stude\Star\Star\bin\Debug\net6.0\Star.runtimeconfig.json
+D:\code\C# Stude\Star\Star\bin\Debug\net6.0\Star.dll
+D:\code\C# Stude\Star\Star\bin\Debug\net6.0\Star.pdb
+D:\code\C# Stude\Star\Star\bin\Debug\net6.0\MyLibrary.dll
+D:\code\C# Stude\Star\Star\bin\Debug\net6.0\MyLibrary.pdb
+D:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.csproj.AssemblyReference.cache
+D:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.AssemblyInfoInputs.cache
+D:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.AssemblyInfo.cs
+D:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.csproj.CoreCompileInputs.cache
+D:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.csproj.CopyComplete
+D:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.dll
+D:\code\C# Stude\Star\Star\obj\Debug\net6.0\refint\Star.dll
+D:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.pdb
+D:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.genruntimeconfig.cache
+D:\code\C# Stude\Star\Star\obj\Debug\net6.0\ref\Star.dll
+E:\code\C# Stude\Star\Star\bin\Debug\net6.0\Star.exe
+E:\code\C# Stude\Star\Star\bin\Debug\net6.0\Star.deps.json
+E:\code\C# Stude\Star\Star\bin\Debug\net6.0\Star.runtimeconfig.json
+E:\code\C# Stude\Star\Star\bin\Debug\net6.0\Star.dll
+E:\code\C# Stude\Star\Star\bin\Debug\net6.0\Star.pdb
+E:\code\C# Stude\Star\Star\bin\Debug\net6.0\MyLibrary.dll
+E:\code\C# Stude\Star\Star\bin\Debug\net6.0\MyLibrary.pdb
+E:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.csproj.AssemblyReference.cache
+E:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.GeneratedMSBuildEditorConfig.editorconfig
+E:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.AssemblyInfoInputs.cache
+E:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.AssemblyInfo.cs
+E:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.csproj.CoreCompileInputs.cache
+E:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.csproj.CopyComplete
+E:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.dll
+E:\code\C# Stude\Star\Star\obj\Debug\net6.0\refint\Star.dll
+E:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.pdb
+E:\code\C# Stude\Star\Star\obj\Debug\net6.0\Star.genruntimeconfig.cache
+E:\code\C# Stude\Star\Star\obj\Debug\net6.0\ref\Star.dll
+G:\бэк код проблема\C# Stude\Star\Star\bin\Debug\net6.0\Star.exe
+G:\бэк код проблема\C# Stude\Star\Star\bin\Debug\net6.0\Star.deps.json
+G:\бэк код проблема\C# Stude\Star\Star\bin\Debug\net6.0\Star.runtimeconfig.json
+G:\бэк код проблема\C# Stude\Star\Star\bin\Debug\net6.0\Star.dll
+G:\бэк код проблема\C# Stude\Star\Star\bin\Debug\net6.0\Star.pdb
+G:\бэк код проблема\C# Stude\Star\Star\bin\Debug\net6.0\MyLibrary.dll
+G:\бэк код проблема\C# Stude\Star\Star\bin\Debug\net6.0\MyLibrary.pdb
+G:\бэк код проблема\C# Stude\Star\Star\obj\Debug\net6.0\Star.csproj.AssemblyReference.cache
+G:\бэк код проблема\C# Stude\Star\Star\obj\Debug\net6.0\Star.GeneratedMSBuildEditorConfig.editorconfig
+G:\бэк код проблема\C# Stude\Star\Star\obj\Debug\net6.0\Star.AssemblyInfoInputs.cache
+G:\бэк код проблема\C# Stude\Star\Star\obj\Debug\net6.0\Star.AssemblyInfo.cs
+G:\бэк код проблема\C# Stude\Star\Star\obj\Debug\net6.0\Star.csproj.CoreCompileInputs.cache
+G:\бэк код проблема\C# Stude\Star\Star\obj\Debug\net6.0\Star.csproj.Up2Date
+G:\бэк код проблема\C# Stude\Star\Star\obj\Debug\net6.0\Star.dll
+G:\бэк код проблема\C# Stude\Star\Star\obj\Debug\net6.0\refint\Star.dll
+G:\бэк код проблема\C# Stude\Star\Star\obj\Debug\net6.0\Star.pdb
+G:\бэк код проблема\C# Stude\Star\Star\obj\Debug\net6.0\Star.genruntimeconfig.cache
+G:\бэк код проблема\C# Stude\Star\Star\obj\Debug\net6.0\ref\Star.dll
+G:\C# Stude\Star\Star\bin\Debug\net6.0\Star.exe
+G:\C# Stude\Star\Star\bin\Debug\net6.0\Star.deps.json
+G:\C# Stude\Star\Star\bin\Debug\net6.0\Star.runtimeconfig.json
+G:\C# Stude\Star\Star\bin\Debug\net6.0\Star.dll
+G:\C# Stude\Star\Star\bin\Debug\net6.0\Star.pdb
+G:\C# Stude\Star\Star\bin\Debug\net6.0\MyLibrary.dll
+G:\C# Stude\Star\Star\bin\Debug\net6.0\MyLibrary.pdb
+G:\C# Stude\Star\Star\obj\Debug\net6.0\Star.csproj.AssemblyReference.cache
+G:\C# Stude\Star\Star\obj\Debug\net6.0\Star.GeneratedMSBuildEditorConfig.editorconfig
+G:\C# Stude\Star\Star\obj\Debug\net6.0\Star.AssemblyInfoInputs.cache
+G:\C# Stude\Star\Star\obj\Debug\net6.0\Star.AssemblyInfo.cs
+G:\C# Stude\Star\Star\obj\Debug\net6.0\Star.csproj.CoreCompileInputs.cache
+G:\C# Stude\Star\Star\obj\Debug\net6.0\Star.csproj.Up2Date
+G:\C# Stude\Star\Star\obj\Debug\net6.0\Star.dll
+G:\C# Stude\Star\Star\obj\Debug\net6.0\refint\Star.dll
+G:\C# Stude\Star\Star\obj\Debug\net6.0\Star.pdb
+G:\C# Stude\Star\Star\obj\Debug\net6.0\Star.genruntimeconfig.cache
+G:\C# Stude\Star\Star\obj\Debug\net6.0\ref\Star.dll
+C:\Users\Admin\Desktop\C# Stude\Star\Star\bin\Debug\net6.0\Star.exe
+C:\Users\Admin\Desktop\C# Stude\Star\Star\bin\Debug\net6.0\Star.deps.json
+C:\Users\Admin\Desktop\C# Stude\Star\Star\bin\Debug\net6.0\Star.runtimeconfig.json
+C:\Users\Admin\Desktop\C# Stude\Star\Star\bin\Debug\net6.0\Star.dll
+C:\Users\Admin\Desktop\C# Stude\Star\Star\bin\Debug\net6.0\Star.pdb
+C:\Users\Admin\Desktop\C# Stude\Star\Star\bin\Debug\net6.0\MyLibrary.dll
+C:\Users\Admin\Desktop\C# Stude\Star\Star\bin\Debug\net6.0\MyLibrary.pdb
+C:\Users\Admin\Desktop\C# Stude\Star\Star\obj\Debug\net6.0\Star.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\C# Stude\Star\Star\obj\Debug\net6.0\Star.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\C# Stude\Star\Star\obj\Debug\net6.0\Star.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\C# Stude\Star\Star\obj\Debug\net6.0\Star.AssemblyInfo.cs
+C:\Users\Admin\Desktop\C# Stude\Star\Star\obj\Debug\net6.0\Star.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\C# Stude\Star\Star\obj\Debug\net6.0\Star.csproj.CopyComplete
+C:\Users\Admin\Desktop\C# Stude\Star\Star\obj\Debug\net6.0\Star.dll
+C:\Users\Admin\Desktop\C# Stude\Star\Star\obj\Debug\net6.0\refint\Star.dll
+C:\Users\Admin\Desktop\C# Stude\Star\Star\obj\Debug\net6.0\Star.pdb
+C:\Users\Admin\Desktop\C# Stude\Star\Star\obj\Debug\net6.0\Star.genruntimeconfig.cache
+C:\Users\Admin\Desktop\C# Stude\Star\Star\obj\Debug\net6.0\ref\Star.dll
+G:\C# Stude\Sapport_project\Star\Star\bin\Debug\net6.0\Star.exe
+G:\C# Stude\Sapport_project\Star\Star\bin\Debug\net6.0\Star.deps.json
+G:\C# Stude\Sapport_project\Star\Star\bin\Debug\net6.0\Star.runtimeconfig.json
+G:\C# Stude\Sapport_project\Star\Star\bin\Debug\net6.0\Star.dll
+G:\C# Stude\Sapport_project\Star\Star\bin\Debug\net6.0\Star.pdb
+G:\C# Stude\Sapport_project\Star\Star\bin\Debug\net6.0\MyLibrary.dll
+G:\C# Stude\Sapport_project\Star\Star\bin\Debug\net6.0\MyLibrary.pdb
+G:\C# Stude\Sapport_project\Star\Star\obj\Debug\net6.0\Star.csproj.AssemblyReference.cache
+G:\C# Stude\Sapport_project\Star\Star\obj\Debug\net6.0\Star.GeneratedMSBuildEditorConfig.editorconfig
+G:\C# Stude\Sapport_project\Star\Star\obj\Debug\net6.0\Star.AssemblyInfoInputs.cache
+G:\C# Stude\Sapport_project\Star\Star\obj\Debug\net6.0\Star.AssemblyInfo.cs
+G:\C# Stude\Sapport_project\Star\Star\obj\Debug\net6.0\Star.csproj.CoreCompileInputs.cache
+G:\C# Stude\Sapport_project\Star\Star\obj\Debug\net6.0\Star.csproj.Up2Date
+G:\C# Stude\Sapport_project\Star\Star\obj\Debug\net6.0\Star.dll
+G:\C# Stude\Sapport_project\Star\Star\obj\Debug\net6.0\refint\Star.dll
+G:\C# Stude\Sapport_project\Star\Star\obj\Debug\net6.0\Star.pdb
+G:\C# Stude\Sapport_project\Star\Star\obj\Debug\net6.0\Star.genruntimeconfig.cache
+G:\C# Stude\Sapport_project\Star\Star\obj\Debug\net6.0\ref\Star.dll
+F:\C# Stude\Sapport_project\Star\Star\bin\Debug\net6.0\Star.exe
+F:\C# Stude\Sapport_project\Star\Star\bin\Debug\net6.0\Star.deps.json
+F:\C# Stude\Sapport_project\Star\Star\bin\Debug\net6.0\Star.runtimeconfig.json
+F:\C# Stude\Sapport_project\Star\Star\bin\Debug\net6.0\Star.dll
+F:\C# Stude\Sapport_project\Star\Star\bin\Debug\net6.0\Star.pdb
+F:\C# Stude\Sapport_project\Star\Star\bin\Debug\net6.0\MyLibrary.dll
+F:\C# Stude\Sapport_project\Star\Star\bin\Debug\net6.0\MyLibrary.pdb
+F:\C# Stude\Sapport_project\Star\Star\obj\Debug\net6.0\Star.csproj.AssemblyReference.cache
+F:\C# Stude\Sapport_project\Star\Star\obj\Debug\net6.0\Star.GeneratedMSBuildEditorConfig.editorconfig
+F:\C# Stude\Sapport_project\Star\Star\obj\Debug\net6.0\Star.AssemblyInfoInputs.cache
+F:\C# Stude\Sapport_project\Star\Star\obj\Debug\net6.0\Star.AssemblyInfo.cs
+F:\C# Stude\Sapport_project\Star\Star\obj\Debug\net6.0\Star.csproj.CoreCompileInputs.cache
+F:\C# Stude\Sapport_project\Star\Star\obj\Debug\net6.0\Star.csproj.Up2Date
+F:\C# Stude\Sapport_project\Star\Star\obj\Debug\net6.0\Star.dll
+F:\C# Stude\Sapport_project\Star\Star\obj\Debug\net6.0\refint\Star.dll
+F:\C# Stude\Sapport_project\Star\Star\obj\Debug\net6.0\Star.pdb
+F:\C# Stude\Sapport_project\Star\Star\obj\Debug\net6.0\Star.genruntimeconfig.cache
+F:\C# Stude\Sapport_project\Star\Star\obj\Debug\net6.0\ref\Star.dll
+C:\Support\Support_5\Sapport_project\Star\Star\bin\Debug\net6.0\Star.exe
+C:\Support\Support_5\Sapport_project\Star\Star\bin\Debug\net6.0\Star.deps.json
+C:\Support\Support_5\Sapport_project\Star\Star\bin\Debug\net6.0\Star.runtimeconfig.json
+C:\Support\Support_5\Sapport_project\Star\Star\bin\Debug\net6.0\Star.dll
+C:\Support\Support_5\Sapport_project\Star\Star\bin\Debug\net6.0\Star.pdb
+C:\Support\Support_5\Sapport_project\Star\Star\bin\Debug\net6.0\MyLibrary.dll
+C:\Support\Support_5\Sapport_project\Star\Star\bin\Debug\net6.0\MyLibrary.pdb
+C:\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.csproj.AssemblyReference.cache
+C:\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.GeneratedMSBuildEditorConfig.editorconfig
+C:\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.AssemblyInfoInputs.cache
+C:\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.AssemblyInfo.cs
+C:\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.csproj.CoreCompileInputs.cache
+C:\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.csproj.Up2Date
+C:\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.dll
+C:\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\refint\Star.dll
+C:\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.pdb
+C:\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.genruntimeconfig.cache
+C:\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\ref\Star.dll
+C:\Distr\C# Stude\Support\Support_5\Sapport_project\Star\Star\bin\Debug\net6.0\Star.exe
+C:\Distr\C# Stude\Support\Support_5\Sapport_project\Star\Star\bin\Debug\net6.0\Star.deps.json
+C:\Distr\C# Stude\Support\Support_5\Sapport_project\Star\Star\bin\Debug\net6.0\Star.runtimeconfig.json
+C:\Distr\C# Stude\Support\Support_5\Sapport_project\Star\Star\bin\Debug\net6.0\Star.dll
+C:\Distr\C# Stude\Support\Support_5\Sapport_project\Star\Star\bin\Debug\net6.0\Star.pdb
+C:\Distr\C# Stude\Support\Support_5\Sapport_project\Star\Star\bin\Debug\net6.0\MyLibrary.dll
+C:\Distr\C# Stude\Support\Support_5\Sapport_project\Star\Star\bin\Debug\net6.0\MyLibrary.pdb
+C:\Distr\C# Stude\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.csproj.AssemblyReference.cache
+C:\Distr\C# Stude\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.GeneratedMSBuildEditorConfig.editorconfig
+C:\Distr\C# Stude\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.AssemblyInfoInputs.cache
+C:\Distr\C# Stude\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.AssemblyInfo.cs
+C:\Distr\C# Stude\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.csproj.CoreCompileInputs.cache
+C:\Distr\C# Stude\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.csproj.Up2Date
+C:\Distr\C# Stude\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.dll
+C:\Distr\C# Stude\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\refint\Star.dll
+C:\Distr\C# Stude\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.pdb
+C:\Distr\C# Stude\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.genruntimeconfig.cache
+C:\Distr\C# Stude\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\ref\Star.dll
+G:\c ноута\C# Stude\Support\Support_5\Sapport_project\Star\Star\bin\Debug\net6.0\Star.exe
+G:\c ноута\C# Stude\Support\Support_5\Sapport_project\Star\Star\bin\Debug\net6.0\Star.deps.json
+G:\c ноута\C# Stude\Support\Support_5\Sapport_project\Star\Star\bin\Debug\net6.0\Star.runtimeconfig.json
+G:\c ноута\C# Stude\Support\Support_5\Sapport_project\Star\Star\bin\Debug\net6.0\Star.dll
+G:\c ноута\C# Stude\Support\Support_5\Sapport_project\Star\Star\bin\Debug\net6.0\Star.pdb
+G:\c ноута\C# Stude\Support\Support_5\Sapport_project\Star\Star\bin\Debug\net6.0\MyLibrary.dll
+G:\c ноута\C# Stude\Support\Support_5\Sapport_project\Star\Star\bin\Debug\net6.0\MyLibrary.pdb
+G:\c ноута\C# Stude\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.csproj.AssemblyReference.cache
+G:\c ноута\C# Stude\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.GeneratedMSBuildEditorConfig.editorconfig
+G:\c ноута\C# Stude\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.AssemblyInfoInputs.cache
+G:\c ноута\C# Stude\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.AssemblyInfo.cs
+G:\c ноута\C# Stude\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.csproj.CoreCompileInputs.cache
+G:\c ноута\C# Stude\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.csproj.Up2Date
+G:\c ноута\C# Stude\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.dll
+G:\c ноута\C# Stude\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\refint\Star.dll
+G:\c ноута\C# Stude\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.pdb
+G:\c ноута\C# Stude\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\Star.genruntimeconfig.cache
+G:\c ноута\C# Stude\Support\Support_5\Sapport_project\Star\Star\obj\Debug\net6.0\ref\Star.dll
+G:\c ноута\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP\Star\Star\bin\Debug\net6.0\Star.exe
+G:\c ноута\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP\Star\Star\bin\Debug\net6.0\Star.deps.json
+G:\c ноута\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP\Star\Star\bin\Debug\net6.0\Star.runtimeconfig.json
+G:\c ноута\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP\Star\Star\bin\Debug\net6.0\Star.dll
+G:\c ноута\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP\Star\Star\bin\Debug\net6.0\Star.pdb
+G:\c ноута\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP\Star\Star\bin\Debug\net6.0\MyLibrary.dll
+G:\c ноута\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP\Star\Star\bin\Debug\net6.0\MyLibrary.pdb
+G:\c ноута\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP\Star\Star\obj\Debug\net6.0\Star.csproj.AssemblyReference.cache
+G:\c ноута\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP\Star\Star\obj\Debug\net6.0\Star.GeneratedMSBuildEditorConfig.editorconfig
+G:\c ноута\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP\Star\Star\obj\Debug\net6.0\Star.AssemblyInfoInputs.cache
+G:\c ноута\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP\Star\Star\obj\Debug\net6.0\Star.AssemblyInfo.cs
+G:\c ноута\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP\Star\Star\obj\Debug\net6.0\Star.csproj.CoreCompileInputs.cache
+G:\c ноута\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP\Star\Star\obj\Debug\net6.0\Star.csproj.Up2Date
+G:\c ноута\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP\Star\Star\obj\Debug\net6.0\Star.dll
+G:\c ноута\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP\Star\Star\obj\Debug\net6.0\refint\Star.dll
+G:\c ноута\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP\Star\Star\obj\Debug\net6.0\Star.pdb
+G:\c ноута\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP\Star\Star\obj\Debug\net6.0\Star.genruntimeconfig.cache
+G:\c ноута\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP\Star\Star\obj\Debug\net6.0\ref\Star.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия\Star\Star\bin\Debug\net6.0\Star.exe
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия\Star\Star\bin\Debug\net6.0\Star.deps.json
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия\Star\Star\bin\Debug\net6.0\Star.runtimeconfig.json
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия\Star\Star\bin\Debug\net6.0\Star.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия\Star\Star\bin\Debug\net6.0\Star.pdb
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия\Star\Star\bin\Debug\net6.0\MyLibrary.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия\Star\Star\bin\Debug\net6.0\MyLibrary.pdb
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия\Star\Star\obj\Debug\net6.0\Star.csproj.AssemblyReference.cache
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия\Star\Star\obj\Debug\net6.0\Star.GeneratedMSBuildEditorConfig.editorconfig
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия\Star\Star\obj\Debug\net6.0\Star.AssemblyInfoInputs.cache
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия\Star\Star\obj\Debug\net6.0\Star.AssemblyInfo.cs
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия\Star\Star\obj\Debug\net6.0\Star.csproj.CoreCompileInputs.cache
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия\Star\Star\obj\Debug\net6.0\Star.csproj.Up2Date
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия\Star\Star\obj\Debug\net6.0\Star.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия\Star\Star\obj\Debug\net6.0\refint\Star.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия\Star\Star\obj\Debug\net6.0\Star.pdb
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия\Star\Star\obj\Debug\net6.0\Star.genruntimeconfig.cache
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия\Star\Star\obj\Debug\net6.0\ref\Star.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\Star\Star\bin\Debug\net6.0\Star.exe
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\Star\Star\bin\Debug\net6.0\Star.deps.json
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\Star\Star\bin\Debug\net6.0\Star.runtimeconfig.json
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\Star\Star\bin\Debug\net6.0\Star.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\Star\Star\bin\Debug\net6.0\Star.pdb
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\Star\Star\bin\Debug\net6.0\MyLibrary.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\Star\Star\bin\Debug\net6.0\MyLibrary.pdb
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\Star\Star\obj\Debug\net6.0\Star.csproj.AssemblyReference.cache
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\Star\Star\obj\Debug\net6.0\Star.GeneratedMSBuildEditorConfig.editorconfig
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\Star\Star\obj\Debug\net6.0\Star.AssemblyInfoInputs.cache
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\Star\Star\obj\Debug\net6.0\Star.AssemblyInfo.cs
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\Star\Star\obj\Debug\net6.0\Star.csproj.CoreCompileInputs.cache
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\Star\Star\obj\Debug\net6.0\Star.csproj.Up2Date
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\Star\Star\obj\Debug\net6.0\Star.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\Star\Star\obj\Debug\net6.0\refint\Star.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\Star\Star\obj\Debug\net6.0\Star.pdb
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\Star\Star\obj\Debug\net6.0\Star.genruntimeconfig.cache
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\Star\Star\obj\Debug\net6.0\ref\Star.dll
