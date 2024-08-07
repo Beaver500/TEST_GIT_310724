@@ -9,7 +9,7 @@ using System.Data.SqlTypes;
 using static System.Net.Mime.MediaTypeNames;
 using System.Text.Json;
 using System.Diagnostics.Metrics;
-//16.06
+
 public class Star
 {
 
