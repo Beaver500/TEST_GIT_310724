@@ -99,3 +99,14 @@ C:\Support\Support_5\Sapport_project\MyLibrary\MyLibrary\obj\Debug\net6.0\MyLibr
 C:\Support\Support_5\Sapport_project\MyLibrary\MyLibrary\obj\Debug\net6.0\refint\MyLibrary.dll
 C:\Support\Support_5\Sapport_project\MyLibrary\MyLibrary\obj\Debug\net6.0\MyLibrary.pdb
 C:\Support\Support_5\Sapport_project\MyLibrary\MyLibrary\obj\Debug\net6.0\ref\MyLibrary.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\MyLibrary\MyLibrary\bin\Debug\net6.0\MyLibrary.deps.json
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\MyLibrary\MyLibrary\bin\Debug\net6.0\MyLibrary.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\MyLibrary\MyLibrary\bin\Debug\net6.0\MyLibrary.pdb
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\MyLibrary\MyLibrary\obj\Debug\net6.0\MyLibrary.GeneratedMSBuildEditorConfig.editorconfig
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\MyLibrary\MyLibrary\obj\Debug\net6.0\MyLibrary.AssemblyInfoInputs.cache
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\MyLibrary\MyLibrary\obj\Debug\net6.0\MyLibrary.AssemblyInfo.cs
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\MyLibrary\MyLibrary\obj\Debug\net6.0\MyLibrary.csproj.CoreCompileInputs.cache
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\MyLibrary\MyLibrary\obj\Debug\net6.0\MyLibrary.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\MyLibrary\MyLibrary\obj\Debug\net6.0\refint\MyLibrary.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\MyLibrary\MyLibrary\obj\Debug\net6.0\MyLibrary.pdb
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\MyLibrary\MyLibrary\obj\Debug\net6.0\ref\MyLibrary.dll

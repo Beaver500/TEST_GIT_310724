@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP — копия 2\\TCP_Server\\TCP_Server\\TCP_Server.csproj",
+      "projectUniqueName": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP — рабочая\\TCP_Server\\TCP_Server\\TCP_Server.csproj",
       "projectName": "TCP_Server",
-      "projectPath": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP — копия 2\\TCP_Server\\TCP_Server\\TCP_Server.csproj",
+      "projectPath": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP — рабочая\\TCP_Server\\TCP_Server\\TCP_Server.csproj",
       "packagesPath": "C:\\Users\\Beaver\\.nuget\\packages\\",
-      "outputPath": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP — копия 2\\TCP_Server\\TCP_Server\\obj\\",
+      "outputPath": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP — рабочая\\TCP_Server\\TCP_Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

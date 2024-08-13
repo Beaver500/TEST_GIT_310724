@@ -84,13 +84,37 @@ namespace MyLibrary
                 byte[] bytes = new byte[1024];
                 int bytesRec = handler.Receive(bytes);
                 data += Encoding.UTF8.GetString(bytes, 0, bytesRec);
+                string reply = null;
+                Console.WriteLine("data = " + data);
 
                 //Формирование даты
                 DateTime Data1 = DateTime.Today;
                 DateTime Data2 = Data1.AddMonths(12);
 
+
+
+                if (Object.Equals(data, "1") == true)
+                {
+                    //Read
+                    reply = "#90#010102#27" + Data1.ToString("ddMMyy") + ";" + Data2.ToString("ddMMyy") + "#91";
+
+                }
+                else if (Object.Equals(data, "2") == true)
+                {
+                    //NoRead - random
+                    string[] arr = { "#90#010102#27" + "000000" + ";" + Data2.ToString("ddMMyy") + "#91", "#90#010102#27" + Data1.ToString("ddMMyy") + ";" + "000000" + "#91", "#90#010102#27" + Data1.ToString("ddMMyy") + ";" + Data2.ToString("ddMMyy") + "#91" };
+
+                   // reply = "#90#010102#27" + "000000" + ";" + Data2.ToString("ddMMyy") + "#91";
+
+                    reply += arr[new Random().Next(0, arr.Length - 1)];
+                    
+                    //"#90#010102#27" + "000000" + ";" + Data2.ToString("ddMMyy") + "#91";
+                    //"#90#010102#27" + Data1.ToString("ddMMyy") + ";" + "000000" + "#91";
+                }
+
+
                 //messege
-                string reply = "#90#010102#27" + Data1.ToString("ddMMyy") + ";" + Data2.ToString("ddMMyy") + "#91";
+                //reply = "#90#010102#27" + Data1.ToString("ddMMyy") + ";" + Data2.ToString("ddMMyy") + "#91";
                 byte[] msg = Encoding.UTF8.GetBytes(reply);
                 handler.Send(msg);
 
@@ -131,6 +155,7 @@ namespace MyLibrary
                 byte[] bytes = new byte[1024];
                 int bytesRec = handler.Receive(bytes);
                 data += Encoding.UTF8.GetString(bytes, 0, bytesRec);
+                
 
                 //Формирование даты
                 DateTime Data1 = DateTime.Today;
@@ -140,6 +165,12 @@ namespace MyLibrary
                 //string reply = "#90#010102#27" + "000000" + ";" + "000000" + "#91";
                 //string reply = "#90#010102#27" + Data1.ToString("ddMMyy") + ";" + "000000" + "#91";
                 string reply = "#90#010102#27" + "000000" + ";" + Data2.ToString("ddMMyy") + "#91";
+
+                //if (data == "1")
+                //{
+                //     reply = "#90#010102#27" + "000000" + ";" + Data2.ToString("ddMMyy") + "#91";
+                //}
+                
                 byte[] msg = Encoding.UTF8.GetBytes(reply);
                 handler.Send(msg);
 
@@ -185,6 +216,9 @@ namespace MyLibrary
                 Socket handler = server_soket.Accept();
                 string? data = null;
 
+                DateTime Data1Check = DateTime.Today;
+                DateTime Data2Check = Data1Check.AddMonths(12);
+
                 //Мы дождались клиента, пытающегося с нами соединиться
                 Console.WriteLine("Клиент подключился к  {0}", server_ipEndPoint);
 
@@ -199,15 +233,30 @@ namespace MyLibrary
 
                 mess = dataSplit.Split(';');
 
+
+
+                //for (int i = 0; i <= 1; i++)
+                //{
+
+                //    if (mess[i] == "NoRead")
+                //    {
+                //        result = "!!!NO READ!!!";
+                //        break;
+                //    }
+                //    result = "READ";
+                //}
+
+
                 for (int i = 0; i <= 1; i++)
                 {
 
-                    if (mess[i] == "NoRead")
+                    if (mess[i] == Data1Check.ToString("ddMMyy") && mess[i = i + 1] == Data2Check.ToString("ddMMyy"))
                     {
-                        result = "!!!NO READ!!!";
+                        result = "READ";
+                       
                         break;
                     }
-                    result = "READ";
+                    result = "!!!NO READ!!!";
                 }
 
 

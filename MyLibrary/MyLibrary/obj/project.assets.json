@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP — копия 2\\MyLibrary\\MyLibrary\\MyLibrary.csproj",
+      "projectUniqueName": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP — рабочая\\MyLibrary\\MyLibrary\\MyLibrary.csproj",
       "projectName": "MyLibrary",
-      "projectPath": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP — копия 2\\MyLibrary\\MyLibrary\\MyLibrary.csproj",
+      "projectPath": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP — рабочая\\MyLibrary\\MyLibrary\\MyLibrary.csproj",
       "packagesPath": "C:\\Users\\Beaver\\.nuget\\packages\\",
-      "outputPath": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP — копия 2\\MyLibrary\\MyLibrary\\obj\\",
+      "outputPath": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP — рабочая\\MyLibrary\\MyLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

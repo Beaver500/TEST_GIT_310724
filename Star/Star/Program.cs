@@ -102,7 +102,7 @@ public class Star
         do
         {
     
-            Console.Write(" 0 - для выхода , 1 - соединения клиент-сервер\n");
+            Console.Write(" 0 - выход , 1 - Read, 2 - NoRead \n");
             servCount = Console.ReadLine();
 
             switch (servCount)
@@ -110,11 +110,11 @@ public class Star
 
                 case "1":
                     Parallel.Invoke(
-                       () => { collectionMessege.Add(clientConnectTo(10, server0_ipEndPoint)); },
+                       () => { collectionMessege.Add(clientConnectTo(10, server0_ipEndPoint, servCount)); },
 
-                       () => { collectionMessege.Add(clientConnectTo(11, server1_ipEndPoint)); },
+                       () => { collectionMessege.Add(clientConnectTo(11, server1_ipEndPoint, servCount)); },
 
-                       () => { collectionMessege.Add(clientConnectTo(12, server2_ipEndPoint)); }
+                       () => { collectionMessege.Add(clientConnectTo(12, server2_ipEndPoint, servCount)); }
                            );
 
                     result = checkEqualityCollection(collectionMessege);
@@ -124,6 +124,20 @@ public class Star
 
                     break;
 
+                case "2":
+                    Parallel.Invoke(
+                      () => { collectionMessege.Add(clientConnectTo(10, server0_ipEndPoint, servCount)); },
+
+                      () => { collectionMessege.Add(clientConnectTo(11, server1_ipEndPoint, servCount)); },
+
+                      () => { collectionMessege.Add(clientConnectTo(12, server2_ipEndPoint, servCount)); }
+                          );
+
+                    result = checkEqualityCollection(collectionMessege);
+
+                    clientConnectToClient_Serv(Client_Server_ipEndPoint, result);
+
+                    break;
                 case "0":
                     /*
                      Освобождение ресурсов(отключение клиента от серверов с сообщением об этом)
@@ -141,7 +155,7 @@ public class Star
     }
 
     
-    static string clientConnectTo(int port, IPEndPoint server_ipEndPoint)
+    static string clientConnectTo(int port, IPEndPoint server_ipEndPoint, string servCount)
     {
         string result = null;
         
@@ -155,7 +169,7 @@ public class Star
 
             
             byte[] bytes = new byte[1024];
-            string message = "1";
+            string message = servCount;
             byte[] msg = Encoding.UTF8.GetBytes(message);
             int bytesSent = client_soket.Send(msg);
 

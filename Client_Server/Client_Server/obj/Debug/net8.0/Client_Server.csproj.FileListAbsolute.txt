@@ -142,3 +142,21 @@ G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копи�
 G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\Client_Server\Client_Server\obj\Debug\net8.0\Client_Server.pdb
 G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\Client_Server\Client_Server\obj\Debug\net8.0\Client_Server.genruntimeconfig.cache
 G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\Client_Server\Client_Server\obj\Debug\net8.0\ref\Client_Server.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Client_Server\Client_Server\bin\Debug\net8.0\Client_Server.exe
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Client_Server\Client_Server\bin\Debug\net8.0\Client_Server.deps.json
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Client_Server\Client_Server\bin\Debug\net8.0\Client_Server.runtimeconfig.json
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Client_Server\Client_Server\bin\Debug\net8.0\Client_Server.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Client_Server\Client_Server\bin\Debug\net8.0\Client_Server.pdb
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Client_Server\Client_Server\bin\Debug\net8.0\MyLibrary.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Client_Server\Client_Server\bin\Debug\net8.0\MyLibrary.pdb
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Client_Server\Client_Server\obj\Debug\net8.0\Client_Server.csproj.AssemblyReference.cache
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Client_Server\Client_Server\obj\Debug\net8.0\Client_Server.GeneratedMSBuildEditorConfig.editorconfig
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Client_Server\Client_Server\obj\Debug\net8.0\Client_Server.AssemblyInfoInputs.cache
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Client_Server\Client_Server\obj\Debug\net8.0\Client_Server.AssemblyInfo.cs
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Client_Server\Client_Server\obj\Debug\net8.0\Client_Server.csproj.CoreCompileInputs.cache
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Client_Server\Client_Server\obj\Debug\net8.0\Client_S.15013BFA.Up2Date
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Client_Server\Client_Server\obj\Debug\net8.0\Client_Server.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Client_Server\Client_Server\obj\Debug\net8.0\refint\Client_Server.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Client_Server\Client_Server\obj\Debug\net8.0\Client_Server.pdb
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Client_Server\Client_Server\obj\Debug\net8.0\Client_Server.genruntimeconfig.cache
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Client_Server\Client_Server\obj\Debug\net8.0\ref\Client_Server.dll

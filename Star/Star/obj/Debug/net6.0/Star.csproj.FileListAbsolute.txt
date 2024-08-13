@@ -250,3 +250,21 @@ G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копи�
 G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\Star\Star\obj\Debug\net6.0\Star.pdb
 G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\Star\Star\obj\Debug\net6.0\Star.genruntimeconfig.cache
 G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\Star\Star\obj\Debug\net6.0\ref\Star.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Star\Star\bin\Debug\net6.0\Star.exe
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Star\Star\bin\Debug\net6.0\Star.deps.json
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Star\Star\bin\Debug\net6.0\Star.runtimeconfig.json
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Star\Star\bin\Debug\net6.0\Star.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Star\Star\bin\Debug\net6.0\Star.pdb
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Star\Star\bin\Debug\net6.0\MyLibrary.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Star\Star\bin\Debug\net6.0\MyLibrary.pdb
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\Star.csproj.AssemblyReference.cache
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\Star.GeneratedMSBuildEditorConfig.editorconfig
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\Star.AssemblyInfoInputs.cache
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\Star.AssemblyInfo.cs
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\Star.csproj.CoreCompileInputs.cache
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\Star.csproj.Up2Date
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\Star.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\refint\Star.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\Star.pdb
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\Star.genruntimeconfig.cache
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\ref\Star.dll

@@ -142,3 +142,21 @@ G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копи�
 G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\TCP_Server\TCP_Server\obj\Debug\net8.0\TCP_Server.pdb
 G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\TCP_Server\TCP_Server\obj\Debug\net8.0\TCP_Server.genruntimeconfig.cache
 G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — копия 2\TCP_Server\TCP_Server\obj\Debug\net8.0\ref\TCP_Server.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\TCP_Server\TCP_Server\bin\Debug\net8.0\TCP_Server.exe
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\TCP_Server\TCP_Server\bin\Debug\net8.0\TCP_Server.deps.json
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\TCP_Server\TCP_Server\bin\Debug\net8.0\TCP_Server.runtimeconfig.json
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\TCP_Server\TCP_Server\bin\Debug\net8.0\TCP_Server.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\TCP_Server\TCP_Server\bin\Debug\net8.0\TCP_Server.pdb
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\TCP_Server\TCP_Server\bin\Debug\net8.0\MyLibrary.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\TCP_Server\TCP_Server\bin\Debug\net8.0\MyLibrary.pdb
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\TCP_Server\TCP_Server\obj\Debug\net8.0\TCP_Server.csproj.AssemblyReference.cache
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\TCP_Server\TCP_Server\obj\Debug\net8.0\TCP_Server.GeneratedMSBuildEditorConfig.editorconfig
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\TCP_Server\TCP_Server\obj\Debug\net8.0\TCP_Server.AssemblyInfoInputs.cache
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\TCP_Server\TCP_Server\obj\Debug\net8.0\TCP_Server.AssemblyInfo.cs
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\TCP_Server\TCP_Server\obj\Debug\net8.0\TCP_Server.csproj.CoreCompileInputs.cache
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\TCP_Server\TCP_Server\obj\Debug\net8.0\TCP_Server.csproj.Up2Date
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\TCP_Server\TCP_Server\obj\Debug\net8.0\TCP_Server.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\TCP_Server\TCP_Server\obj\Debug\net8.0\refint\TCP_Server.dll
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\TCP_Server\TCP_Server\obj\Debug\net8.0\TCP_Server.pdb
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\TCP_Server\TCP_Server\obj\Debug\net8.0\TCP_Server.genruntimeconfig.cache
+G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\TCP_Server\TCP_Server\obj\Debug\net8.0\ref\TCP_Server.dll

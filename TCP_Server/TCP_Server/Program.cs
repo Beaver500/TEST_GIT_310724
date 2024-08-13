@@ -28,8 +28,8 @@ public class ServerMain {
         Parallel.Invoke(
             () =>{ server0.serverConnectTo(server0_ipEndPoint, server0_soket);},
             () =>{ server1.serverConnectTo(server1_ipEndPoint, server1_Soket); },
-            () => { server2.messegeNoRead(server2_ipEndPoint, server2_soket); }
-            //() => { server2.serverConnectTo(server2_ipEndPoint, server2_soket); }
+            //() => { server2.messegeNoRead(server2_ipEndPoint, server2_soket); }
+            () => { server2.serverConnectTo(server2_ipEndPoint, server2_soket); }
                         
             );
 
