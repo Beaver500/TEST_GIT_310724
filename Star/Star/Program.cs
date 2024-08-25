@@ -15,66 +15,15 @@ public class Star
 
     static void Main(string[] args)
     {
-        /*
-        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Консольный вариант ПО 
-
-        0 - Экстренное завершение работы ПО с высвобождением ресурсов
-
-                   1) *вывод сообщения* : "начать подключение к серверам?"
-                   y/n or 0 (exit)
-                   y - *подключаемся* 
-                   n - *закрываем приложение*: "END"
-
-
-                   2) *вывод сообщения* : "Отправить сообщение?"
-                    y/n or 0 (exit)
-                                         
-                   y - *вывод сообщения* :"Read(r)/NoRead(n)" 
-
-                            r/n or 0 (exit)
-
-                            r - ПО отправляет сообщение "Read", получает ответ, передает Клиент_серву, Клиент_серв выводит итоговый Read/NoRead 
-                                   
-                                    *возвращение к началу 2 шага *: "Отправить сообщение?"*
-
-                            n - ПО отправляет сообщение "NoRead", получает ответ, передает Клиент_серву, Клиент_серв выводит итоговый Read/NoRead 
-                                   
-                                    *возвращение к началу 2 шага *: "Отправить сообщение?"*
-                        
-                    n - *вывод сообщения* : "Отключиться от серверов?"
-                      
-                           y/n or 0 (exit)
-                           y - *переход к шагу 1* : "начать подключение к серверам?"
-                           n - *возвращение к началу 2 шага *: "Отправить сообщение?"
-       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-       ------------------------------------------------------------- Вариант ПО с WPF
-
-           Окнос с кнопками:
-            "Подклбчение к серверам"
-            "Стоп"
-            "Read"
-            "NoRead"
-            *консоль?*
-
-                "подключение к серверам" - *подключаемся*
-                "стоп" - *закрываем приложение*: "END"
-
-            
-                
-               Кнопка "Начать обмен?" - *выполняется обмен сообщение и Клиент_серв выводит итоговый Read/NoRead*
-                    
-                
-
-
-       -------------------------------------------------------------
-
-                    */
-
-
+        StringCollection collectionMessege = new StringCollection();
         String servCount = null;
         string result = null;
-        StringCollection collectionMessege = new StringCollection();
+        Socket socket0 = null;
+        Socket socket1 = null;
+        Socket socket2 = null;
+        Socket socket3 = null;
+
+        bool Count = true;
 
         FileStream js_File_Server0 = new FileStream("..\\..\\..\\..\\..\\TCP_Server\\TCP_Server\\bin\\Debug\\net8.0\\TCPServConfig_0.json", FileMode.Open);
         Сonductor conductor0 = JsonSerializer.Deserialize<Сonductor>(js_File_Server0);
@@ -96,68 +45,52 @@ public class Star
         IPEndPoint Client_Server_ipEndPoint = new IPEndPoint(IPAddress.Parse(conductor3.ipAddr), conductor3.port);
         js_File_Client_Server.Close();
 
+       
+        Parallel.Invoke(
+                       () => {  socket0 = clientConnectTo(10, server0_ipEndPoint);},
 
+                       () => {  socket1 = clientConnectTo(11, server1_ipEndPoint);},
 
+                       () => {  socket2 = clientConnectTo(12, server2_ipEndPoint);},
 
-        do
-        {
+                       () => {  socket3 = clientConnectToClient_Serv(Client_Server_ipEndPoint);}
+                           );
+       
+        while (Count) {
     
-            Console.Write(" 0 - выход , 1 - Read, 2 - NoRead \n");
+            Console.Write("\n0 - exit, 1 - Read, 2 - NoRead: ");
             servCount = Console.ReadLine();
 
-            switch (servCount)
-            {
+            Parallel.Invoke(
+                       
+                       () => { collectionMessege.Add(sendMessageTCP_server(socket0, servCount)); },
 
-                case "1":
-                    Parallel.Invoke(
-                       () => { collectionMessege.Add(clientConnectTo(10, server0_ipEndPoint, servCount)); },
+                       () => { collectionMessege.Add(sendMessageTCP_server(socket1, servCount)); },
 
-                       () => { collectionMessege.Add(clientConnectTo(11, server1_ipEndPoint, servCount)); },
+                       () => { collectionMessege.Add(sendMessageTCP_server(socket2, servCount)); }
 
-                       () => { collectionMessege.Add(clientConnectTo(12, server2_ipEndPoint, servCount)); }
                            );
 
-                    result = checkEqualityCollection(collectionMessege);
-
-                    clientConnectToClient_Serv(Client_Server_ipEndPoint, result);
-
-
-                    break;
-
-                case "2":
-                    Parallel.Invoke(
-                      () => { collectionMessege.Add(clientConnectTo(10, server0_ipEndPoint, servCount)); },
-
-                      () => { collectionMessege.Add(clientConnectTo(11, server1_ipEndPoint, servCount)); },
-
-                      () => { collectionMessege.Add(clientConnectTo(12, server2_ipEndPoint, servCount)); }
-                          );
-
-                    result = checkEqualityCollection(collectionMessege);
-
-                    clientConnectToClient_Serv(Client_Server_ipEndPoint, result);
-
-                    break;
-                case "0":
-                    /*
-                     Освобождение ресурсов(отключение клиента от серверов с сообщением об этом)
-                    Это будет отдельный метод7
-                     */
-
-
-                    // servCount = "0";
-                    break;
+            if (Object.Equals(servCount, "0") == true)
+            {
+                Console.WriteLine("Завершение работы");
+                Count = false;
             }
 
-        } while (servCount != "0");
-        Console.WriteLine("\nEND");
+            result = checkEqualityCollection(collectionMessege);
+
+            sendMassegeClient_Serv(socket3, result, servCount);
+
+            collectionMessege.Clear();
+
+        }
 
     }
 
     
-    static string clientConnectTo(int port, IPEndPoint server_ipEndPoint, string servCount)
+    static Socket clientConnectTo(int port, IPEndPoint server_ipEndPoint)
     {
-        string result = null;
+        Socket result = null;
         
         try
         {
@@ -166,17 +99,10 @@ public class Star
             Socket client_soket = new Socket(client_ipAddr.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
 
             client_soket.Connect(server_ipEndPoint);
+            Console.WriteLine("\n Подключенo к TCP серверу " + client_soket.RemoteEndPoint.ToString());
 
-            
-            byte[] bytes = new byte[1024];
-            string message = servCount;
-            byte[] msg = Encoding.UTF8.GetBytes(message);
-            int bytesSent = client_soket.Send(msg);
-
-            // Получаем ответ от сервера. выводим 
-            int bytesRec = client_soket.Receive(bytes);
-            Console.WriteLine("\nОтвет от TCP сервера " + client_soket.RemoteEndPoint.ToString() + " : {0}\n", Encoding.UTF8.GetString(bytes, 0, bytesRec));
-            result = Encoding.UTF8.GetString(bytes, 0, bytesRec);
+            result = client_soket;
+ 
 
         }
         catch (Exception ex)
@@ -192,6 +118,35 @@ public class Star
 
     }
 
+    static string sendMessageTCP_server(Socket client_soket, string servCount) {
+        string? result = null;
+
+        try {
+
+            byte[] bytes = new byte[1024];
+            string message = servCount;
+            byte[] msg = Encoding.UTF8.GetBytes(message);
+            int bytesSent = client_soket.Send(msg);
+
+            int bytesRec = client_soket.Receive(bytes);
+            Console.WriteLine("\nОтвет от TCP сервера " + client_soket.RemoteEndPoint.ToString() + " : {0}\n", Encoding.UTF8.GetString(bytes, 0, bytesRec));
+            result = Encoding.UTF8.GetString(bytes, 0, bytesRec);
+
+
+
+        }
+        catch (Exception ex) {
+
+            Console.WriteLine("clientConnectTo");
+            Console.WriteLine($"Исключение: {ex.Message}");
+            Console.WriteLine($"Метод: {ex.TargetSite}");
+            Console.WriteLine($"Трассировка стека: {ex.StackTrace}");
+
+        }
+
+        return result;
+    }
+
     static string checkEqualityCollection(StringCollection collectionMessege)
     {
         string? result = null;
@@ -200,8 +155,7 @@ public class Star
             // - выделенная часть с датами и сообщения от сервера
             string? exampleMessage = null;
             // пример ответа от сервера, для последующей сборки result текущего метода. 
-            string? exampleMessage2 = null;
-            
+            string? exampleMessage2 = null;            
             //разбили сообщение от сервера на 2 части до  "Data1;Data2" и после 
             string? messPart1 = null;
             string? messPart2 = null;
@@ -288,42 +242,28 @@ public class Star
             Console.WriteLine();
             Console.WriteLine("result " + result + "\n");
 
-            
-
         }
         catch (Exception ex) {
             Console.WriteLine("checkEqualityCollection");
             Console.WriteLine($"Исключение: {ex.Message}");
             Console.WriteLine($"Метод: {ex.TargetSite}");
             Console.WriteLine($"Трассировка стека: {ex.StackTrace}");
-
         }
         return result;
-
     }
-
     
-    static void clientConnectToClient_Serv(IPEndPoint server_ipEndPoint, string result)
+    static Socket clientConnectToClient_Serv(IPEndPoint server_ipEndPoint)
     {
-        
+
+        IPAddress client_ipAddr = IPAddress.Parse("127.0.0.1");
+        IPEndPoint client_ipEndPoint = new IPEndPoint(client_ipAddr, 13);
+        Socket client_soket = new Socket(client_ipAddr.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
+
         try
         {
-            IPAddress client_ipAddr = IPAddress.Parse("127.0.0.1");
-            IPEndPoint client_ipEndPoint = new IPEndPoint(client_ipAddr, 3);
-            Socket client_soket = new Socket(client_ipAddr.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
-
             client_soket.Connect(server_ipEndPoint);
-
-            byte[] bytes = new byte[1024];
-            string message = result;
-            byte[] msg = Encoding.UTF8.GetBytes(message);
-            int bytesSent = client_soket.Send(msg);
-            
-
-            int bytesRec = client_soket.Receive(bytes);
-            Console.WriteLine("\nОтвет от Client сервера " + client_soket.RemoteEndPoint.ToString() + " : {0}\n", Encoding.UTF8.GetString(bytes, 0, bytesRec));
-
-
+            Console.WriteLine("\n Подключенo к Client серверу " + client_soket.RemoteEndPoint.ToString());
+                     
         }
         catch (Exception ex)
         {
@@ -333,7 +273,34 @@ public class Star
             Console.WriteLine($"Трассировка стека: {ex.StackTrace}");
 
         }
-
+        return client_soket;
     }
 
+
+    static void sendMassegeClient_Serv(Socket client_soket, string result, string servCount) {
+
+        try {
+
+            if (servCount == "0") {
+                result = servCount;
+            }
+
+            byte[] bytes = new byte[1024];
+            string message = result;
+            byte[] msg = Encoding.UTF8.GetBytes(message);
+            int bytesSent = client_soket.Send(msg);
+
+            int bytesRec = client_soket.Receive(bytes);
+            Console.WriteLine("\nОтвет от Client сервера " + client_soket.RemoteEndPoint.ToString() + " : {0}\n", Encoding.UTF8.GetString(bytes, 0, bytesRec));
+
+
+        }
+        catch (Exception ex) {
+            Console.WriteLine("clientConnectToClient_Serv");
+            Console.WriteLine($"Исключение: {ex.Message}");
+            Console.WriteLine($"Метод: {ex.TargetSite}");
+            Console.WriteLine($"Трассировка стека: {ex.StackTrace}");
+
+           }
+    }
 }

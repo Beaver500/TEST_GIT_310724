@@ -6,13 +6,16 @@
       "AbsoluteMoniker": "D:0:0:{55F47281-EF2C-452C-B429-40A32E2B1C02}|..\\Star\\Star\\Star.csproj|g:\\c# stude\\support\\sapport_project_top_160724\\sapport_project_top \u2014 \u0440\u0430\u0431\u043E\u0447\u0430\u044F\\star\\star\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{36EA1C90-859F-439D-8A01-0D261C456833}|..\\Client_Server\\Client_Server\\Client_Server.csproj|g:\\c# stude\\support\\sapport_project_top_160724\\sapport_project_top \u2014 \u0440\u0430\u0431\u043E\u0447\u0430\u044F\\client_server\\client_server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FE96D692-C013-4D04-BDEC-CC68D3B7CB96}|..\\TCP_Server\\TCP_Server\\TCP_Server.csproj|g:\\c# stude\\support\\sapport_project_top_160724\\sapport_project_top \u2014 \u0440\u0430\u0431\u043E\u0447\u0430\u044F\\tcp_server\\tcp_server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8666CE54-73C3-414F-9FDA-F421F78A8D2A}|..\\MyLibrary\\MyLibrary\\MyLibrary.csproj|g:\\c# stude\\support\\sapport_project_top_160724\\sapport_project_top \u2014 \u0440\u0430\u0431\u043E\u0447\u0430\u044F\\mylibrary\\mylibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36EA1C90-859F-439D-8A01-0D261C456833}|..\\Client_Server\\Client_Server\\Client_Server.csproj|g:\\c# stude\\support\\sapport_project_top_160724\\sapport_project_top \u2014 \u0440\u0430\u0431\u043E\u0447\u0430\u044F\\client_server\\client_server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8666CE54-73C3-414F-9FDA-F421F78A8D2A}|..\\MyLibrary\\MyLibrary\\MyLibrary.csproj|g:\\c# stude\\support\\sapport_project_top_160724\\sapport_project_top \u2014 \u0440\u0430\u0431\u043E\u0447\u0430\u044F\\mylibrary\\mylibrary\\mylibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,40 +29,40 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP \u2014 \u0440\u0430\u0431\u043E\u0447\u0430\u044F\\Client_Server\\Client_Server\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Client_Server\\Client_Server\\Program.cs",
-              "ToolTip": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP \u2014 \u0440\u0430\u0431\u043E\u0447\u0430\u044F\\Client_Server\\Client_Server\\Program.cs",
-              "RelativeToolTip": "..\\Client_Server\\Client_Server\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T13:26:53.647Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP \u2014 \u0440\u0430\u0431\u043E\u0447\u0430\u044F\\TCP_Server\\TCP_Server\\Program.cs",
               "RelativeDocumentMoniker": "..\\TCP_Server\\TCP_Server\\Program.cs",
               "ToolTip": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP \u2014 \u0440\u0430\u0431\u043E\u0447\u0430\u044F\\TCP_Server\\TCP_Server\\Program.cs",
               "RelativeToolTip": "..\\TCP_Server\\TCP_Server\\Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAgwB4AAABRAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T13:33:02.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T15:22:09.182Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP \u2014 \u0440\u0430\u0431\u043E\u0447\u0430\u044F\\MyLibrary\\MyLibrary\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\MyLibrary\\MyLibrary\\Class1.cs",
-              "ToolTip": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP \u2014 \u0440\u0430\u0431\u043E\u0447\u0430\u044F\\MyLibrary\\MyLibrary\\Class1.cs",
-              "RelativeToolTip": "..\\MyLibrary\\MyLibrary\\Class1.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAArwGIAAABgAAAA",
+              "DocumentIndex": 4,
+              "Title": "MyLibrary.csproj",
+              "DocumentMoniker": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP \u2014 \u0440\u0430\u0431\u043E\u0447\u0430\u044F\\MyLibrary\\MyLibrary\\MyLibrary.csproj",
+              "RelativeDocumentMoniker": "..\\MyLibrary\\MyLibrary\\MyLibrary.csproj",
+              "ToolTip": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP \u2014 \u0440\u0430\u0431\u043E\u0447\u0430\u044F\\MyLibrary\\MyLibrary\\MyLibrary.csproj",
+              "RelativeToolTip": "..\\MyLibrary\\MyLibrary\\MyLibrary.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-25T09:24:05.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP \u2014 \u0440\u0430\u0431\u043E\u0447\u0430\u044F\\Client_Server\\Client_Server\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Client_Server\\Client_Server\\Program.cs",
+              "ToolTip": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP \u2014 \u0440\u0430\u0431\u043E\u0447\u0430\u044F\\Client_Server\\Client_Server\\Program.cs",
+              "RelativeToolTip": "..\\Client_Server\\Client_Server\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T15:30:56.501Z"
+              "WhenOpened": "2024-08-24T11:59:42.866Z"
             },
             {
               "$type": "Document",
@@ -69,10 +72,22 @@
               "RelativeDocumentMoniker": "..\\Star\\Star\\Program.cs",
               "ToolTip": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP \u2014 \u0440\u0430\u0431\u043E\u0447\u0430\u044F\\Star\\Star\\Program.cs",
               "RelativeToolTip": "..\\Star\\Star\\Program.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAnwGkAAAArAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADgAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T14:52:21.617Z",
+              "WhenOpened": "2024-08-22T15:09:21.131Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP \u2014 \u0440\u0430\u0431\u043E\u0447\u0430\u044F\\MyLibrary\\MyLibrary\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\MyLibrary\\MyLibrary\\Class1.cs",
+              "ToolTip": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP \u2014 \u0440\u0430\u0431\u043E\u0447\u0430\u044F\\MyLibrary\\MyLibrary\\Class1.cs",
+              "RelativeToolTip": "..\\MyLibrary\\MyLibrary\\Class1.cs",
+              "ViewState": "AQIAAPcAAAAAAAAAAAAUwE8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T15:16:29.341Z"
             }
           ]
         }

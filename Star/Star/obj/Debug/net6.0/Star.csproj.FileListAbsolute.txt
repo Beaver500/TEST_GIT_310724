@@ -268,3 +268,21 @@ G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабо�
 G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\Star.pdb
 G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\Star.genruntimeconfig.cache
 G:\C# Stude\Support\Sapport_project_TOP_160724\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\ref\Star.dll
+C:\Support\Sapport_project_TOP — рабочая\Star\Star\bin\Debug\net6.0\Star.exe
+C:\Support\Sapport_project_TOP — рабочая\Star\Star\bin\Debug\net6.0\Star.deps.json
+C:\Support\Sapport_project_TOP — рабочая\Star\Star\bin\Debug\net6.0\Star.runtimeconfig.json
+C:\Support\Sapport_project_TOP — рабочая\Star\Star\bin\Debug\net6.0\Star.dll
+C:\Support\Sapport_project_TOP — рабочая\Star\Star\bin\Debug\net6.0\Star.pdb
+C:\Support\Sapport_project_TOP — рабочая\Star\Star\bin\Debug\net6.0\MyLibrary.dll
+C:\Support\Sapport_project_TOP — рабочая\Star\Star\bin\Debug\net6.0\MyLibrary.pdb
+C:\Support\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\Star.csproj.AssemblyReference.cache
+C:\Support\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\Star.GeneratedMSBuildEditorConfig.editorconfig
+C:\Support\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\Star.AssemblyInfoInputs.cache
+C:\Support\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\Star.AssemblyInfo.cs
+C:\Support\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\Star.csproj.CoreCompileInputs.cache
+C:\Support\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\Star.csproj.Up2Date
+C:\Support\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\Star.dll
+C:\Support\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\refint\Star.dll
+C:\Support\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\Star.pdb
+C:\Support\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\Star.genruntimeconfig.cache
+C:\Support\Sapport_project_TOP — рабочая\Star\Star\obj\Debug\net6.0\ref\Star.dll

@@ -5,15 +5,13 @@ using System.Net;
 using System.Net.Sockets;
 using System.Reflection;
 using System.Text;
-//16.06
+
 namespace MyLibrary
 {
     public abstract class Server
     {
-
         public virtual string? ipAddr { get; set; }
         public virtual int port { get; set; }
-
         //некоторый метод
         public virtual void serverConnectTo(IPEndPoint server_ipEndPoint, Socket server_soket)
         {
@@ -25,10 +23,7 @@ namespace MyLibrary
             Socket handler = server_soket.Accept();
             //Мы дождались клиента, пытающегося с нами соединиться
             Console.WriteLine("Клиент подключился к  {0}", server_ipEndPoint);
-  
         }
-
-        
 
         public virtual void messegeNoRead(IPEndPoint server_ipEndPoint, Socket server_soket)
         {
@@ -67,74 +62,75 @@ namespace MyLibrary
 
         public override void serverConnectTo(IPEndPoint server_ipEndPoint, Socket server_soket)
         {
-            try
-            {
+            
                 // Начинаем слушать соединения.
                 Console.WriteLine("Ждем подключения  {0}", server_ipEndPoint);
                 server_soket.Bind(server_ipEndPoint);
                 server_soket.Listen(10);
 
-                //соединения с клиентом
-                Socket handler = server_soket.Accept();
-                string? data = null;
-
-                //Мы дождались клиента, пытающегося с нами соединиться
-                Console.WriteLine("Клиент подключился к  {0}", server_ipEndPoint);
-
-                byte[] bytes = new byte[1024];
-                int bytesRec = handler.Receive(bytes);
-                data += Encoding.UTF8.GetString(bytes, 0, bytesRec);
-                string reply = null;
-                Console.WriteLine("data = " + data);
-
                 //Формирование даты
                 DateTime Data1 = DateTime.Today;
                 DateTime Data2 = Data1.AddMonths(12);
 
+                byte[] bytes = new byte[1024];
 
+                //соединения с клиентом
+                Socket handler = server_soket.Accept();
+               
+                // дождались клиента, пытающегося соединиться
+                Console.WriteLine("Клиент подключился к  {0}", server_ipEndPoint);
 
-                if (Object.Equals(data, "1") == true)
-                {
-                    //Read
-                    reply = "#90#010102#27" + Data1.ToString("ddMMyy") + ";" + Data2.ToString("ddMMyy") + "#91";
-
-                }
-                else if (Object.Equals(data, "2") == true)
-                {
-                    //NoRead - random
-                    string[] arr = { "#90#010102#27" + "000000" + ";" + Data2.ToString("ddMMyy") + "#91", "#90#010102#27" + Data1.ToString("ddMMyy") + ";" + "000000" + "#91", "#90#010102#27" + Data1.ToString("ddMMyy") + ";" + Data2.ToString("ddMMyy") + "#91" };
-
-                   // reply = "#90#010102#27" + "000000" + ";" + Data2.ToString("ddMMyy") + "#91";
-
-                    reply += arr[new Random().Next(0, arr.Length - 1)];
-                    
-                    //"#90#010102#27" + "000000" + ";" + Data2.ToString("ddMMyy") + "#91";
-                    //"#90#010102#27" + Data1.ToString("ddMMyy") + ";" + "000000" + "#91";
-                }
-
-
-                //messege
-                //reply = "#90#010102#27" + Data1.ToString("ddMMyy") + ";" + Data2.ToString("ddMMyy") + "#91";
-                byte[] msg = Encoding.UTF8.GetBytes(reply);
-                handler.Send(msg);
-
-                handler.Shutdown(SocketShutdown.Both);
-                handler.Close();
-
-            }
-            catch (Exception ex)
+            while (true)
             {
-                Console.WriteLine("serverConnectTo_TCP_Server");
-                Console.WriteLine($"Исключение: {ex.Message}");
-                Console.WriteLine($"Метод: {ex.TargetSite}");
-                Console.WriteLine($"Трассировка стека: {ex.StackTrace}");
-            }
+                try
+                {
+                    string? data = null;
+                    int bytesRec = handler.Receive(bytes);
+                    data += Encoding.UTF8.GetString(bytes, 0, bytesRec);
+                    string reply = null;
 
+                    if (Object.Equals(data, "1") == true)
+                    {
+                        //Read
+                        reply = "#90#010102#27" + Data1.ToString("ddMMyy") + ";" + Data2.ToString("ddMMyy") + "#91";
+
+                    }
+                    else if (Object.Equals(data, "2") == true)
+                    {
+                        //NoRead - random
+                        string[] arr = { "#90#010102#27" + "000000" + ";" + Data2.ToString("ddMMyy") + "#91", "#90#010102#27" + Data1.ToString("ddMMyy") + ";" + "000000" + "#91", "#90#010102#27" + Data1.ToString("ddMMyy") + ";" + Data2.ToString("ddMMyy") + "#91" };
+
+                        reply += arr[new Random().Next(0, arr.Length - 1)];
+
+                    }
+                    else if (Object.Equals(data, "0") == true)
+                    {
+
+                        handler.Shutdown(SocketShutdown.Both);
+                        handler.Close();
+                        break;
+
+                    }
+                    //messege
+
+                    byte[] msg = Encoding.UTF8.GetBytes(reply);
+                    handler.Send(msg);
+
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("serverConnectTo_TCP_Server");
+                    Console.WriteLine($"Исключение: {ex.Message}");
+                    Console.WriteLine($"Метод: {ex.TargetSite}");
+                    Console.WriteLine($"Трассировка стека: {ex.StackTrace}");
+                }
+            }
+            Console.WriteLine("завершение работы TCP сервера: {0}", server_ipEndPoint);
 
         }
 
       
-
+        //Тест
         public override void messegeNoRead(IPEndPoint server_ipEndPoint, Socket server_soket)
         {
 
@@ -190,7 +186,6 @@ namespace MyLibrary
 
         }
 
-
     }
 
     public class Client_Server : Server
@@ -204,8 +199,9 @@ namespace MyLibrary
             string? result = null;
             string[]? mess = null;
             string? messPart = null;
-            try
-            {
+
+            DateTime Data1Check = DateTime.Today;
+            DateTime Data2Check = Data1Check.AddMonths(12);
 
                 Console.WriteLine("Ждем подключения  {0}", server_ipEndPoint);
                 // Начинаем слушать соединения.
@@ -214,70 +210,60 @@ namespace MyLibrary
 
                 //соединения с клиентом
                 Socket handler = server_soket.Accept();
-                string? data = null;
-
-                DateTime Data1Check = DateTime.Today;
-                DateTime Data2Check = Data1Check.AddMonths(12);
-
-                //Мы дождались клиента, пытающегося с нами соединиться
                 Console.WriteLine("Клиент подключился к  {0}", server_ipEndPoint);
 
-                byte[] bytes = new byte[1024];
-                int bytesRec = handler.Receive(bytes);
-
-                data += Encoding.UTF8.GetString(bytes, 0, bytesRec);
-
-                dataSplit = data.Substring(13, 13);
-
-                Console.WriteLine("dataSplit = " + dataSplit);
-
-                mess = dataSplit.Split(';');
-
-
-
-                //for (int i = 0; i <= 1; i++)
-                //{
-
-                //    if (mess[i] == "NoRead")
-                //    {
-                //        result = "!!!NO READ!!!";
-                //        break;
-                //    }
-                //    result = "READ";
-                //}
-
-
-                for (int i = 0; i <= 1; i++)
+            while (true)
+            {
+                try
                 {
+                    string? data = null;
+                    byte[] bytes = new byte[1024];
+                    int bytesRec = handler.Receive(bytes);
 
-                    if (mess[i] == Data1Check.ToString("ddMMyy") && mess[i = i + 1] == Data2Check.ToString("ddMMyy"))
+                    data += Encoding.UTF8.GetString(bytes, 0, bytesRec);
+
+                    if (data == "0")
                     {
-                        result = "READ";
-                       
+                        handler.Shutdown(SocketShutdown.Both);
+                        handler.Close();
                         break;
                     }
-                    result = "!!!NO READ!!!";
+
+
+                    dataSplit = data.Substring(13, 13);
+
+                    Console.WriteLine("dataSplit = " + dataSplit);
+
+                    mess = dataSplit.Split(';');
+
+                        for (int i = 0; i <= 1; i++)
+                        {
+
+                            if (mess[i] == Data1Check.ToString("ddMMyy") && mess[i = i + 1] == Data2Check.ToString("ddMMyy"))
+                            {
+                                result = "READ";
+
+
+                            }
+                            else {
+                                result = "!!!NO READ!!!";
+                            }                            
+                        }
+
+                    byte[] msg = Encoding.UTF8.GetBytes(result);
+                    handler.Send(msg);
+
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("serverConnectTo_Client_Server");
+                    Console.WriteLine($"Исключение: {ex.Message}");
+                    Console.WriteLine($"Метод: {ex.TargetSite}");
+                    Console.WriteLine($"Трассировка стека: {ex.StackTrace}");
                 }
 
-
-                byte[] msg = Encoding.UTF8.GetBytes(result);
-                handler.Send(msg);
-
-                //Закрытие соединения и высвобождение ресурсов
-                
-                handler.Shutdown(SocketShutdown.Both);
-                handler.Close();
-
-
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine("serverConnectTo_Client_Server");
-                Console.WriteLine($"Исключение: {ex.Message}");
-                Console.WriteLine($"Метод: {ex.TargetSite}");
-                Console.WriteLine($"Трассировка стека: {ex.StackTrace}");
-            }
-
+            Console.WriteLine("завершение работы TCP сервера: {0}", server_ipEndPoint);
         }
     }
 }
