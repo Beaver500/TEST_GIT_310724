@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "xalNTeO2WTw=",
+  "dgSpecHash": "0S4r9XszF5V9HWpI8X4Tw731l0moLghqq2HdbWDh3vPhkMOmImzIFlU11ASQNwM3BPcNey2X2EhOZVQBmUf6ww==",
   "success": true,
-  "projectFilePath": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP — рабочая\\MyLibrary\\MyLibrary\\MyLibrary.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Support\\Sapport_project_TOP — GIT\\TEST_GIT_310724\\MyLibrary\\MyLibrary\\MyLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sen\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\sen\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\sen\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512"
+  ],
   "logs": []
 }

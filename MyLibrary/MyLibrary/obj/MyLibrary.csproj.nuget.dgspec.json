@@ -1,25 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP — рабочая\\MyLibrary\\MyLibrary\\MyLibrary.csproj": {}
+    "C:\\Support\\Sapport_project_TOP — GIT\\TEST_GIT_310724\\MyLibrary\\MyLibrary\\MyLibrary.csproj": {}
   },
   "projects": {
-    "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP — рабочая\\MyLibrary\\MyLibrary\\MyLibrary.csproj": {
+    "C:\\Support\\Sapport_project_TOP — GIT\\TEST_GIT_310724\\MyLibrary\\MyLibrary\\MyLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP — рабочая\\MyLibrary\\MyLibrary\\MyLibrary.csproj",
+        "projectUniqueName": "C:\\Support\\Sapport_project_TOP — GIT\\TEST_GIT_310724\\MyLibrary\\MyLibrary\\MyLibrary.csproj",
         "projectName": "MyLibrary",
-        "projectPath": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP — рабочая\\MyLibrary\\MyLibrary\\MyLibrary.csproj",
-        "packagesPath": "C:\\Users\\Beaver\\.nuget\\packages\\",
-        "outputPath": "G:\\C# Stude\\Support\\Sapport_project_TOP_160724\\Sapport_project_TOP — рабочая\\MyLibrary\\MyLibrary\\obj\\",
+        "projectPath": "C:\\Support\\Sapport_project_TOP — GIT\\TEST_GIT_310724\\MyLibrary\\MyLibrary\\MyLibrary.csproj",
+        "packagesPath": "C:\\Users\\sen\\.nuget\\packages\\",
+        "outputPath": "C:\\Support\\Sapport_project_TOP — GIT\\TEST_GIT_310724\\MyLibrary\\MyLibrary\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Beaver\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\sen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,12 +55,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

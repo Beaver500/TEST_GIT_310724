@@ -193,7 +193,7 @@ public class Star
             }
 
             // вывод пар до
-
+            Console.WriteLine("разбиение на пары до проверки");
             for (int i = 0; i < Coll.Count; i++)
             {
                 Console.WriteLine(" [{0}]  {1} ", i, Coll[i]);
@@ -225,7 +225,7 @@ public class Star
             }
 
             // вывод пар после 
-
+            Console.WriteLine("пары после проверки");
             for (int i = 0; i < Coll.Count; i++)
             {
                 Console.WriteLine(" [{0}]  {1} ", i, Coll[i]);
